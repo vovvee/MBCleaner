@@ -9,9 +9,17 @@ Scans project folders for unused media files and project backups, helping you sa
 
 - Detects unused media files in the project directory
 - Scans project backup files (`.rpp-bak`)
+- Audio Preview
 - Dry Run mode (no files are deleted)
 - Fast search and filtering
 - Clear disk usage overview
+
+---
+
+## Audio Preview
+
+Media files can be previewed directly from the list.  
+Click on the waveform to audition audio without importing it into the project.
 
 ---
 
@@ -42,6 +50,13 @@ Scans project folders for unused media files and project backups, helping you sa
 
 ---
 
-## License
+## Requirements
 
-MIT
+This script requires the following REAPER extensions:
+
+- **ReaImGui**  
+  https://github.com/cfillion/reaimgui
+
+- **SWS Extension**  
+  https://www.sws-extension.org/
+
